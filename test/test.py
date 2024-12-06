@@ -63,4 +63,3 @@ async def test_project(dut):
     # The following assertion is just an example of how to check the output values.
     # Test (assert) that we are getting the expected output. 
     	assert dut.uo_out[0].value == out[i]
-
